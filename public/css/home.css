@@ -1,0 +1,57 @@
+body{
+    background-color: var(--colorAmarillo
+    ) ;
+
+}
+
+/*HEADER*/
+
+.home__header--titulo{
+    font-size: var(--textoSizeTitulares);
+    font-weight: 600;
+    text-align: center;
+    width: 500px;
+    padding: 12px 125px;
+}
+.home__header--busqueda{
+    padding: 12px 5px;
+}
+
+/* MAIN*/
+
+.home__main--titulo {
+    font-size: var(--textoSizeTitulares );
+    font-weight: 600;
+}
+
+.home__main--producto {
+width:100%;
+
+}
+.home__main--precios {
+font-size: var(--textoSizePrecios);
+font-weight: 400;
+}
+
+.home__main--descuentos {
+    font-size: var(--textoSizeDescuentos);
+    font-weight: 400;
+}
+
+
+/*FOOTER*/
+
+.home__footer--titulo{
+    font-size: var(--textoSizeTitulares);
+    font-weight: 600;
+    text-align: center;
+    width: 500px;
+    padding: 12px 75px;
+
+}
+
+.home__footer--parrafo{
+    text-align: center;
+    width: 500px;
+    padding: 12px 75px;
+}
