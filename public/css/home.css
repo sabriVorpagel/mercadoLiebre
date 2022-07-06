@@ -1,57 +1,82 @@
-body{
-    background-color: var(--colorAmarillo
-    ) ;
-
-}
-
 /*HEADER*/
-
+.home__header{
+    background-color: var(--colorAmarillo);
+}
 .home__header--titulo{
-    font-size: var(--textoSizeTitulares);
-    font-weight: 600;
+    font-size: var(--textoSizeDescripciones);
+    font-weight: 400;
     text-align: center;
-    width: 500px;
-    padding: 12px 125px;
+    margin-bottom: 15px;
 }
 .home__header--busqueda{
     padding: 12px 5px;
 }
+.home__header--burger {
+
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home__header--burger button{
+    background-color: var(--colorCeleste);
+}
 
 /* MAIN*/
 
-.home__main--titulo {
+.home__main__div--titulo {
     font-size: var(--textoSizeTitulares );
+    color: var(--colorGrisOscuro);
     font-weight: 600;
+    text-align: center;
 }
 
-.home__main--producto {
+.home__main__div--producto {
 width:100%;
 
 }
-.home__main--precios {
+.home__main__div--precios {
 font-size: var(--textoSizePrecios);
 font-weight: 400;
 }
 
-.home__main--descuentos {
+.home__main__div--descuentos {
     font-size: var(--textoSizeDescuentos);
     font-weight: 400;
+}
+.home__main__div--nombreProducto {
+    font-size: var(--textoSizeCuerpo);
+    text-align: center;
 }
 
 
 /*FOOTER*/
-
-.home__footer--titulo{
-    font-size: var(--textoSizeTitulares);
-    font-weight: 600;
+.home__footer__div{
     text-align: center;
-    width: 500px;
-    padding: 12px 75px;
-
+    padding-top: 25px;
+}
+.home__footer__div i{
+    color:var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
-.home__footer--parrafo{
-    text-align: center;
-    width: 500px;
-    padding: 12px 75px;
+.home__footer__div--titulo{
+    font-size: var(--textoSizeDescripciones);
+    color: var(--colorGrisOscuro);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+.home__footer__div--parrafo{
+    font-size: var(--textoSizeCuerpo);
+    color: var(--colorGrisOscuro);
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+
+.home__footer__div--final{
+    font-size: var(--textoSizeCuerpo);
+    color: var(--colorGrisOscuro);
+    font-weight: 200;
 }
