@@ -2,6 +2,12 @@
 .home__header{
     background-color: var(--colorAmarillo);
 }
+.home__header--logo img{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
 .home__header--titulo{
     font-size: var(--textoSizeDescripciones);
     font-weight: 400;
@@ -12,41 +18,71 @@
     padding: 12px 5px;
 }
 .home__header--burger {
-
     text-align: center;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 .home__header--burger button{
     background-color: var(--colorCeleste);
 }
+.home__header--banner{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 
 /* MAIN*/
-
-.home__main__div--titulo {
-    font-size: var(--textoSizeTitulares );
-    color: var(--colorGrisOscuro);
-    font-weight: 600;
-    text-align: center;
+.home__main{
+    background-color: var(--colorGrisClaro);
+}
+.home__main section{
+    width: 90%;
+    text-align: justify; 
 }
 
 .home__main__div--producto {
-width:100%;
+    width:100%;
+    
+    }
 
+.home__main__div{
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align:justify;
 }
+
+.home__main__div a{
+    color: var(--colorVerde);
+    border-radius: 50%;
+    border: 1px solid var(--colorVerde);
+    padding: 6px;
+}
+
+.home__main--titulo {
+    font-size: var(--textoSizeTitulares );
+    color: var(--colorGrisOscuro);
+    font-weight: 600;
+}
+
 .home__main__div--precios {
 font-size: var(--textoSizePrecios);
 font-weight: 400;
+margin-top: 10px;
+margin-bottom: 0px;
+color: black;
 }
 
 .home__main__div--descuentos {
     font-size: var(--textoSizeDescuentos);
     font-weight: 400;
+    color: var(--colorVerde);
+    margin-top: 0px;
 }
 .home__main__div--nombreProducto {
     font-size: var(--textoSizeCuerpo);
-    text-align: center;
+    color: var(--colorGrisOscuro);
 }
 
 
@@ -79,4 +115,38 @@ font-weight: 400;
     font-size: var(--textoSizeCuerpo);
     color: var(--colorGrisOscuro);
     font-weight: 200;
+}
+
+/* TELEFONO */
+@media (max-width:767px) {
+    /*Header*/
+    .home__header--menu{
+        display: none;
+    }
+    
+    /*Main*/
+    .home__main__div--nombreProducto{
+        display: none;
+    }
+}
+
+/* TABLET*/ 
+@media (min-width:768px) {
+/*Header*/
+.home__header--burger {
+    display: none;
+}
+.home__main__article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+}
+
+/*DESKTOP*/
+@media (min-width:1024px) {
+    .home__header--burger {
+        display: none;
+    }
+    .home__main__article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }
