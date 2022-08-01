@@ -102,7 +102,7 @@ color: black;
     color: var(--colorGrisOscuro);
     margin-top: 5px;
     margin-bottom: 5px;
-    }
+}
 
 .home__footer__div--parrafo{
     font-size: var(--textoSizeCuerpo);

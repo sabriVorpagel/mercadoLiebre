@@ -1,0 +1,216 @@
+.secion__header{
+    background-color: var(--colorAmarillo);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.secion__header--logo{
+    width: 50%;
+}
+.secion__header--busqueda{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.secion__header--busqueda form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.secion__header--busqueda form input{
+    width: 90%;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.secion__header--busqueda form button{
+    width: 10%;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.secion__header--busqueda form button i{
+    color: var(--colorGrisOscuro);
+    text-align: center;
+}
+.secion__header--titulo{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.secion__header--menu--principal{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 50%;
+}
+.secion__header--menu ul{
+    display: flex;
+    flex-direction: row;
+    width: 100% ;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+}
+.secion__header--menu ul li a{
+    width: 50%;
+    color: black;
+    font-family: "Roboto"; 
+    font-weight: 300;
+}
+
+.secion__header--burger{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.secion__header--burger button{
+    border: none;
+    border-radius: 3px;
+}
+.secion__header--burger i{
+    color: white;
+}
+.secion__header--burger button{
+    background-color: var(--colorCeleste);
+}
+
+/*Main*/
+.secion__main{
+    background-color: var(--colorGrisClaro);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.secion__main__section{
+    background-color: var(--colorGrisClaro);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    box-sizing: border-box;
+}
+.iniciar__secion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+.secion__main--tituloPrincipal{
+    font-family: 'Roboto';
+    font-size: var(--textoSizeTitulares);
+    text-align: left;
+    padding-left: 5px;
+    color: var(--colorGrisOscuro);
+}
+.secion__main__div--email{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.secion__main__div--contraseña{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.secion__mensaje--error{
+    color: red;
+    font-size:12px;
+    text-align: left;
+}
+.secion__input{
+    border: none;
+    border-radius: 5px;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: left;
+}
+/*footer*/
+.secion__footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.secion__footer__div{
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+.secion__footer__div i{
+    color:var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.secion__footer__div--titulo{
+    font-size: var(--textoSizeDescripciones);
+    color: var(--colorGrisOscuro);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.secion__footer__div--parrafo{
+    font-size: var(--textoSizeCuerpo);
+    color: var(--colorGrisOscuro);
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+.secion__footer__div--final{
+    font-size: var(--textoSizeCuerpo);
+    color: var(--colorGrisOscuro);
+    font-weight: 200;
+}
+
+/*movil*/
+@media (min-width:320px) {
+    .secion__header--menu--principal{
+        display: none;
+    }
+}
+
+/*Tablert*/
+
+@media (min-width:768px) {
+    .secion__header--logo{
+        width: 30%;
+    }
+    .secion__header--busqueda{
+        width: 30%;
+    }
+    .secion__header--busqueda form input{
+        width: 80%;
+    }
+    .secion__header--busqueda form button{
+        width: 20%;
+    }
+    .secion__header--titulo{
+        width: 30%;
+    }
+    .secion__header--burger{
+        display:none;
+    }
+    .secion__header--menu--principal{
+        display: block;
+    }
+    .secion__header--menu{
+        display: block;
+    }
+    .secion__footer{
+        flex-direction: row;
+    }
+    .secion__footer__div{
+        width: 30%;
+    }
+}
