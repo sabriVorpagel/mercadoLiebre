@@ -5,6 +5,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
 }
 
 .cuenta__header--logo{
@@ -18,18 +21,21 @@
 }
 .cuenta__header--busqueda form{
     width: 100%;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
 }
 .cuenta__header--busqueda form input{
-    width: 90%;
+    width: 80%;
     color: white;
     border: none;
     border-radius: 5px 0px 0px 5px;
 }
 .cuenta__header--busqueda form button{
-    width: 10%;
+    width: 20%;
     border: none;
     border-radius: 0px 5px 5px 0px;
 }
@@ -44,30 +50,34 @@
     text-align: center;
     margin-bottom: 15px;
 }
-
+.cuenta__header__nav{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .cuenta__header--menu--principal{
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    height: 50%;
+    width: 100%;
 }
-.cuesta__header--menu ul{
+.cuenta__header--menu--principal ul{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
     flex-direction: row;
-    width: 100% ;
-    justify-content: space-evenly;
-    padding-bottom: 5px;
 }
-.cuesta__header--menu ul li a{
-    width: 50%;
+
+.cuenta__header--menu--principal ul li a{
+    display: flex;
     color: black;
-    font-family: "Roboto"; 
-    font-weight: 300;
+    font-size: 12px;
 }
 
 .cuenta__header--burger{
     display: block;
-    text-align: center;
+    justify-content: center;
     align-items: center;
 }
 .cuenta__header--burger button{
@@ -88,6 +98,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .cuenta__main__section{
     background-color: var(--colorGrisClaro);
@@ -228,6 +239,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 95%;
+    padding: 10px;
 }
 .cuenta__main--enviar{
     background-color: var(--colorCeleste);
@@ -251,6 +263,8 @@
     flex-direction: column;
     flex-wrap:wrap;
     width: 100%;
+    align-items: baseline;
+    justify-content: center;
 }
 .cuenta__footer__div{
     width: 100%;
