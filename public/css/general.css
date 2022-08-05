@@ -16,15 +16,11 @@
 
 *{
     box-sizing: border-box;
-    margin: auto ;
+    margin: 0 ;
+    font-family: 'Roboto';
     
 }
 
-body{
-
-    font-family: 'Roboto';
-    margin: 0px;
-}
 
 a{
     text-decoration: none;
@@ -33,6 +29,7 @@ a{
 }
 
 ol, ul{
+    text-decoration: none;
     padding: 0;
 }
 

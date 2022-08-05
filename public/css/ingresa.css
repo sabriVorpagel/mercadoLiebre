@@ -1,0 +1,59 @@
+/*Main*/
+.secion__main{
+    background-color: var(--colorGrisClaro);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.secion__main__section{
+    background-color: var(--colorGrisClaro);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    box-sizing: border-box;
+}
+.iniciar__secion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+.secion__main--tituloPrincipal{
+    font-family: 'Roboto';
+    font-size: var(--textoSizeTitulares);
+    text-align: left;
+    padding-left: 5px;
+    color: var(--colorGrisOscuro);
+}
+.secion__main__div--email{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.secion__main__div--contraseña{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.secion__mensaje--error{
+    color: red;
+    font-size:12px;
+    text-align: left;
+}
+.secion__input{
+    border: none;
+    border-radius: 5px;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: left;
+}
+
+
